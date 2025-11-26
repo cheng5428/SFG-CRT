@@ -1,0 +1,1 @@
+python src/main.py --model_name FM --lr 5e-4 --l2 0 --dataset MINDCTR --path ./data/MIND_Large --num_neg 0 --batch_size 1024 --metric AUC,Log_loss --include_item_features 1 --include_situation_features 1 --model_mode CTR --loss_n BCE --early_stop 3 --random_seed 2025

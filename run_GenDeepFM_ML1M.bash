@@ -1,0 +1,2 @@
+python src/main.py --model_name GenDeepFM --lr 1e-3 --l2 1e-4 --dropout 0.2 --layers "[512,128]" --dataset ML_1MCTR --path ./data/MovieLens_1M --num_neg 0 --batch_size 1024 --metric AUC,Log_loss --include_item_features 1 --include_situation_features 1 --model_mode CTR --loss_n BCE --early_stop 3 --random_seed 2025
+    
