@@ -24,6 +24,8 @@
 ## 🛠️ 环境要求
 
 ```bash
+git clone https://github.com/cheng5428/SFG-CRT.git
+cd SFG-CRT
 pip install -r requirements.txt
 ```
 
