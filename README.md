@@ -18,8 +18,8 @@
 2. **GenDeepFM**：将SFG应用于DeepFM
 
 关键文件位置：
-- `src/models/GenFM.py`
-- `src/models/GenDeepFM.py`
+- `src/models/context/GenFM.py`
+- `src/models/context/GenDeepFM.py`
 
 ## 🛠️ 环境要求
 
